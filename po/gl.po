@@ -1,0 +1,303 @@
+# Galician translation for gloobus-preview
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gloobus-preview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gloobus-preview\n"
+"Report-Msgid-Bugs-To: guitarboy000@gmail.com\n"
+"POT-Creation-Date: 2015-01-05 18:15+0100\n"
+"PO-Revision-Date: 2015-01-05 14:00+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Galician <gl@li.org>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-05 14:16+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+
+#: src/gloobus-preview-configuration:147
+msgid "[1;33mSaving New Conf[1;m"
+msgstr "[1;33mGardando a nova configuración[1;m"
+
+#: src/gloobus-preview-configuration:120
+msgid "<b>Main settings</b>"
+msgstr "<b>Opcións xerais</b>"
+
+#: src/gloobus-preview-window.cpp:488 src/gloobus-preview-window.cpp:576
+msgid "About"
+msgstr "Sobre"
+
+#: src/gloobus-preview-interface-default.cpp:207
+msgid "Accessed:"
+msgstr "Accedido:"
+
+#: src/gloobus-preview-configuration:83
+msgid "Always on top"
+msgstr "Sempre enriba"
+
+#: src/gloobus-preview-singleton.cpp:501
+msgid "Application options"
+msgstr "Opcións do aplicativo"
+
+#: src/gloobus-preview-window.cpp:485 src/gloobus-preview-window.cpp:572
+msgid "Blog"
+msgstr "Blog"
+
+#: src/gloobus-preview-configuration:108
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/gloobus-preview-configuration:184
+msgid "Creating configuration directory"
+msgstr "Creando o directorio de configuración"
+
+#: src/gloobus-preview-singleton.cpp:71
+msgid "Debug mode: On"
+msgstr "Modo depuración: activado"
+
+#: src/gloobus-preview-interface-main.cpp:87
+#: src/plugin-folder/plugin-folder.cpp:82
+msgid "Directory"
+msgstr "Directorio"
+
+#: src/gloobus-preview-window.cpp:486 src/gloobus-preview-window.cpp:574
+msgid "Donate"
+msgstr "Doar"
+
+#: src/gloobus-preview-interface-list.cpp:197
+#: src/plugin-compressed/plugin-compressed.cpp:98
+msgid "Error listing files"
+msgstr "Erro ao listar os ficheiros"
+
+#: src/gloobus-preview-singleton.cpp:355
+msgid "Error loading file info"
+msgstr "Erro ao cargar a información do ficheiro"
+
+#: src/gloobus-preview-interface-image.cpp:37
+msgid "Error loading image"
+msgstr "Erro ao cargar a imaxe"
+
+#: src/gloobus-preview-interface-text.cpp:27
+msgid "Error loading text"
+msgstr "Erro ao cargar o texto"
+
+#: src/gloobus-preview-interface-default.cpp:222
+msgid "Error:"
+msgstr "Erro:"
+
+#: src/gloobus-preview-singleton.cpp:568
+msgid "File not found"
+msgstr "Non foi posíbel atopar o ficheiro"
+
+#: src/plugin-compressed/plugin-compressed.cpp:134
+#: src/plugin-folder/plugin-folder.cpp:155
+msgid "Filename"
+msgstr "Nome do ficheiro"
+
+#: src/plugin-ttf/plugin-ttf.cpp:95
+msgid "Font installed sucesfully"
+msgstr "Tipo de letra instalada correctamente"
+
+#: src/gloobus-preview-configuration:238
+msgid "Gloobus-Preview Configuration"
+msgstr "Configuración de Gloobus-Preview"
+
+#: src/gloobus-preview-singleton.cpp:497
+msgid "Help options"
+msgstr "Opcións de axuda"
+
+#: src/plugin-folder/plugin-folder.cpp:154
+msgid "Icon"
+msgstr "Icona"
+
+#: src/gloobus-preview-singleton.cpp:494
+msgid "If URI is not provided Gloobus-Preview checks clipboard for filename"
+msgstr ""
+"Se non se proporciona a URI, Gloobus-Preview buscará un nome de ficheiro no "
+"portarretallos"
+
+#: src/plugin-ttf/plugin-ttf.cpp:8
+msgid "Install Font"
+msgstr "Instalar tipo de letra"
+
+#: src/gloobus-preview-configuration:96
+msgid ""
+"Layout of the buttons\n"
+"close button on the right/left?"
+msgstr ""
+"Disposición dos botóns\n"
+"¿Botón para pechar á dereita ou á esquerda?"
+
+#: src/gloobus-preview-interface-document.cpp:115
+#: src/gloobus-preview-interface-document.cpp:308
+msgid "Loading..."
+msgstr "Cargando…"
+
+#: src/gloobus-preview-configuration:231
+msgid "MODE DEBUG:OFF"
+msgstr "MODO DEPURACIÓN: DESACTIVADO"
+
+#: src/gloobus-preview-configuration:228
+msgid "MODE DEBUG:ON"
+msgstr "MODO DEPURACIÓN: ACTIVADO"
+
+#: src/gloobus-preview-interface-default.cpp:214
+msgid "Modified:"
+msgstr "Modificado:"
+
+#: src/gloobus-preview-interface-default.cpp:185
+msgid "Name:"
+msgstr "Nome:"
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "OPTION"
+msgstr "OPCIÓN"
+
+#: src/gloobus-preview-interface-document.cpp:159
+msgid "Page: "
+msgstr "Páxina: "
+
+#: src/gloobus-preview-window.cpp:489 src/gloobus-preview-window.cpp:578
+msgid "Quit"
+msgstr "Saír"
+
+#: src/gloobus-preview-configuration:90
+msgid "Quit on lose focus"
+msgstr "Pechar cando perde o foco"
+
+#: src/gloobus-preview-window.cpp:487 src/gloobus-preview-window.cpp:570
+msgid "Report a Problem"
+msgstr "Informar dun problema"
+
+#: src/gloobus-preview-configuration:107
+msgid "Save"
+msgstr "Gardar"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:14
+msgid "Search Lyrics for this Song"
+msgstr "Buscar a letra desta canción"
+
+#: src/gloobus-preview-window.cpp:641
+msgid "See your files in a blink."
+msgstr "Olla os teus ficheiros nun intre."
+
+#: src/plugin-pixbuf/plugin-pixbuf.cpp:5
+msgid "Set as Background"
+msgstr "Establecer como fondo"
+
+#: src/gloobus-preview-window.cpp:484 src/gloobus-preview-window.cpp:567
+msgid "Settings"
+msgstr "Configuracións"
+
+#: src/gloobus-preview-singleton.cpp:503
+msgid "Show debug messages"
+msgstr "Mostrar as mensaxes de depuración"
+
+#: src/gloobus-preview-singleton.cpp:499
+msgid "Show help options"
+msgstr "Mostrar opcións de axuda"
+
+#: src/gloobus-preview-configuration:78
+msgid "Show in TaskBar"
+msgstr "Mostrar na barra de tarefas"
+
+#: src/gloobus-preview-singleton.cpp:505
+msgid "Show supported filetypes"
+msgstr "Mostrar os tipos de ficheiro soportados"
+
+#: src/plugin-folder/plugin-folder.cpp:156
+msgid "Size"
+msgstr "Tamaño"
+
+#: src/gloobus-preview-interface-main.cpp:179
+msgid "Size: "
+msgstr "Tamaño: "
+
+#: src/gloobus-preview-singleton.cpp:397
+msgid "Start slideshow"
+msgstr "Comezar a presentación"
+
+#: src/gloobus-preview-singleton.cpp:391
+msgid "Stop slideshow"
+msgstr "Parar a presentación"
+
+#: src/plugin-ttf/plugin-ttf.cpp:153 src/plugin-ttf/plugin-ttf.cpp:155
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "A veloz troita mergullouse axiña no río, o pescador perdéraa"
+
+#: src/gloobus-preview-singleton.cpp:545
+msgid "There is no file in clipboard"
+msgstr "Non hai ningún ficheiro no portarretallos"
+
+#: src/gloobus-preview-interface-main.cpp:178
+msgid "Type: "
+msgstr "Tipo: "
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "Usage"
+msgstr "Uso"
+
+#: src/gloobus-preview-configuration:100
+msgid "Use gtk theme"
+msgstr "Usar tema gtk"
+
+#: src/gloobus-preview-configuration:198
+msgid "Using default Configuration"
+msgstr "Usar a configuración predeterminada"
+
+#: src/gloobus-preview-configuration:84
+msgid ""
+"When enabled gloobus-preview will be\n"
+"<b>always on top</b> of the other windows"
+msgstr ""
+"Cando está activado, Gloobus-Preview estará\n"
+"<b>Sempre visíbel</b> enriba de outras xanelas."
+
+#: src/gloobus-preview-configuration:79
+msgid ""
+"When enabled gloobus-preview will be\n"
+"shown in the <b>taskbar</b>"
+msgstr ""
+"Cando está activado, Gloobus-Preview\n"
+"aparecerá na <b>barra de tarefas</b>"
+
+#: src/gloobus-preview-configuration:91
+msgid ""
+"When enabled, gloobus-preview will <b>exit</b>\n"
+"when it loses focus"
+msgstr ""
+"Cuando está activado, Gloobus-Preview\n"
+"<b>pecharase</b> cando perda o foco"
+
+#: src/gloobus-preview-configuration:101
+msgid "When enabled, gloobus-preview will use system GTK theme"
+msgstr "Cando está activado, Gloobus-Preview usará o tema GTK do sistema"
+
+#: src/gloobus-preview-configuration:95
+msgid "Window Bar Layout inverted"
+msgstr "Disposición da barra da xanela invertida"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:255
+#, c-format
+msgid "iAudio error from %s : %s"
+msgstr "Erro en iAudio de %s : %s"
+
+#: src/gloobus-preview-window.cpp:644
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Fran Diéguez https://launchpad.net/~frandieguez\n"
+"  Manuel Xosé Lemos https://launchpad.net/~mxlemos\n"
+"  keko https://launchpad.net/~keko-gl"
+
+#~ msgid "Report a Bug"
+#~ msgstr "Informar dun fallo"
+
+#~ msgid "Size:"
+#~ msgstr "Tamaño:"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"

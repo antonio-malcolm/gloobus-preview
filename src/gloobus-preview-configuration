@@ -1,0 +1,246 @@
+#!/usr/bin/python3
+
+#  Gloobus-config by BadChoice <guitarboy000@gmail.com>
+
+import configparser
+import os
+import sys
+import glob
+from gi.repository import Gtk, GConf, Gio
+import signal
+import gettext
+#import config
+
+#=========================== CLASS COLORS =======================================================#
+class colors:
+
+	colors_code = ["\033[1;37m","\033[1;36m","\033[1;33m","\033[1;31m","\033[1;m"]
+	colors_name = ["white","blue","yellow","red", "reset"]
+	levels_name = ["info","debug","warning","error","reset"]
+	debugMode = False
+
+
+	#=================== GET CODE BY COLOR ===================#
+	def color(self,color):
+		self.debug = debug
+
+		for i in range(len(self.colors_name)):
+			if color == self.colors_name[i]:
+				return self.colors_code[i]
+		return ""
+
+	#=================== GET CODE BY LEVEL ===================#
+	def level(self,level):
+		for i in range(len(self.colors_name)):
+			if level == self.levels_name[i]:
+				return self.colors_code[i]
+		return ""
+
+	#====================== SET DEBUG =======================#
+	def set_debug(self,debug):
+		self.debugMode = debug
+
+	#================= PREDEFINED MACROS =======================#
+	def debug(self,string):
+		if self.debugMode:
+			print(self.level('debug') + "[DEBUG] " + self.level('reset') + string)
+
+	def info(self,string):
+		print(self.level('info') + "[INFO] " + self.level('reset') + string)
+	
+	def warning(self,string):
+		print(self.level('warning') + "[WARNING] " + self.level('reset') + string)
+	
+	def error(self,string):
+		print(self.level('error') + "[ERROR] " + self.level('reset') + string)	
+
+
+#=========================== CLASS GUI =======================================================#
+class GUI:
+
+	entry1 = None			#Show in taskbar
+	entry2 = None			#Allways on top
+	entry3 = None			#Quit on lose focus
+	entry4 = None			#Win bar layout
+	gsettings_win_layout = None
+	config = None
+
+	def __init__(self):
+		self.config = config_load()
+		
+		schema_source = Gio.SettingsSchemaSource.get_default()
+		wm_schema =Gio.SettingsSchemaSource.lookup(schema_source, "org.gnome.desktop.wm.preferences", False)
+		if wm_schema:
+			wm_settings = Gio.Settings.new("org.gnome.desktop.wm.preferences")
+			self.gsettings_win_layout = wm_settings.get_string("button-layout")
+
+		#================= Show In Taskbar ================= #
+		self.entry1 = Gtk.CheckButton(label=_("Show in TaskBar"), use_underline=False)  
+		self.entry1.set_tooltip_markup(_("When enabled gloobus-preview will be\nshown in the <b>taskbar</b>"))
+		self.entry1.set_active(self.config.getboolean("Main","taskbar"))
+
+		#================= Allways on top ================= #
+		self.entry2 = Gtk.CheckButton(label=_("Always on top"), use_underline=False)  
+		self.entry2.set_tooltip_markup(_("When enabled gloobus-preview will be\n<b>always on top</b> of the other windows"))
+		self.entry2.set_active(self.config.getboolean("Main","ontop"))
+		win.set_keep_above(self.config.getboolean("Main","ontop"))
+
+
+		#================= Quit on lose focus ================= #
+		self.entry3 = Gtk.CheckButton(label=_("Quit on lose focus"), use_underline=False)  
+		self.entry3.set_tooltip_markup(_("When enabled, gloobus-preview will <b>exit</b>\nwhen it loses focus"))
+		self.entry3.set_active(self.config.getboolean("Main","focus"))
+
+		#================= Win bar layout ================= #
+		self.entry4 = Gtk.CheckButton(label=_("Window Bar Layout inverted"), use_underline=False)  
+		self.entry4.set_tooltip_markup(_("Layout of the buttons\nclose button on the right/left?"))
+		self.entry4.set_active(self.config.getboolean("Main","winbar_layout"))
+
+		#================= Use gtk theme ================= #
+		self.theme_gtk_entry = Gtk.CheckButton(label=_("Use gtk theme"), use_underline=False)  
+		self.theme_gtk_entry.set_tooltip_markup(_("When enabled, gloobus-preview will use system GTK theme"))
+		self.theme_gtk_entry.set_active(self.config.getboolean("Theme","gtk"))
+	
+		#=================== BUTTONS  ===================== #
+		container0 = Gtk.HBox(True,1)  #Save and close buttons
+
+		ok_button = Gtk.Button(_("Save"))
+		cancel_button = Gtk.Button(_("Cancel"))
+
+		container0.add(cancel_button)			
+		container0.add(ok_button)				
+		cancel_button.connect('clicked', Gtk.main_quit)
+		ok_button.connect('clicked', self.save_conf)
+
+		#============ GENERAL CONTAINER ================== #
+
+		general_container = Gtk.VBox(False,1)
+
+		title = Gtk.Label()
+		title.set_markup(_("<b>Main settings</b>"))
+		align2 = Gtk.Alignment.new(0,0,0,0)
+		align2.set_padding(0,5,0,0)
+		align2.add(title)
+
+		general_container.add(align2)
+		#general_container.add(self.entry1)	#Show in taskbar
+		general_container.add(self.entry2)	#Always on top
+		general_container.add(self.entry3)	#Always on top
+		general_container.add(self.theme_gtk_entry)
+		if self.gsettings_win_layout == None:
+			general_container.add(self.entry4)	#Always on top
+
+		general_container.add(Gtk.HSeparator())
+		general_container.add(Gtk.Label())	#White Space
+		general_container.add(container0)	#Close & save buttons
+
+		align = Gtk.Alignment.new(0,0,0,0);
+		align.set_padding(10,5,10,10)
+
+		align.add(general_container)
+		win.add(align)
+		win.show_all()
+
+		
+	#=================== SAVE CONFIGURATION ================== #
+	def save_conf(self,button):
+		g.info(_("\033[1;33mSaving New Conf\033[1;m"))
+		#g.debug("  Show in taskbar:" +   str(int(self.entry1.get_active())))
+		#g.debug("  Always on top:" +     str(int(self.entry2.get_active())))
+		#g.debug("  Quit on lose focus:"+ str(int(self.entry3.get_active())))
+
+		self.config.set('Main', 'taskbar',  str(int(self.entry1.get_active())))
+		self.config.set('Main', 'ontop',    str(int(self.entry2.get_active())))
+		self.config.set('Main', 'focus',    str(int(self.entry3.get_active())))
+		self.config.set('Main', 'winbar_layout',    str(int(self.entry4.get_active())))
+		self.config.set('Theme', 'gtk',    str(int(self.theme_gtk_entry.get_active())))
+
+		config_save(self.config)
+		
+		Gtk.main_quit()
+
+
+#==================================== GLOBAL FUNCTIONS ===============================================#		
+#=================== DEFAULT CONFIGURATION ================== #			
+def config_default():
+	config = configparser.SafeConfigParser()
+
+	config.add_section('Main')
+	config.add_section('Theme')
+	
+	config.set('Main', 'taskbar', 	"1")
+	config.set('Main', 'ontop', 	"0")
+	config.set('Main', 'focus', 	"0")
+	config.set('Main', 'winbar_layout', 	"1")
+	config.set('Theme', 'gtk', 	'0')
+	
+	return config
+
+def config_save(conf):
+	if not os.path.isfile(CONFIG_PATH):
+		p = os.path.dirname(CONFIG_PATH)
+		g.debug(_('Configuration dir path') + ": " + p)
+		if not os.path.exists(p):
+			g.warning(_("Creating configuration directory"))
+			os.makedirs(p)
+
+	f = open(CONFIG_PATH, 'w')
+	conf.write(f)
+	f.close()
+	g.debug('Configuration saved')
+
+# ================== LOAD CONFIG ================#
+def config_load():
+	config = config_default()
+	if os.path.isfile(CONFIG_PATH):
+		config.read(CONFIG_PATH)
+	else:
+		g.warning(_("Using default Configuration"))
+	return config
+
+
+#=================================================================================#
+#	                              MAIN		   	         	  #
+#=================================================================================#
+
+global win
+global path
+global debug
+
+#TRANSLATIONS
+gettext.bindtextdomain('gloobus-preview', '/usr/share/locale/')		#FIXME: Use the configuration path instead of /usr/
+gettext.textdomain('gloobus-preview')
+_ = gettext.gettext
+
+debug = False
+g = colors()
+
+abspath = os.path.abspath(os.path.dirname(sys.argv[0]))	#Set the current path
+homedir = os.path.expanduser("~")
+CONFIG_PATH = homedir + '/.config/gloobus/gloobus-preview.cfg'
+
+
+
+try:
+	if sys.argv[1] == "--debug":
+		g.set_debug(True)
+		debug=True
+		g.info(_("MODE DEBUG:ON"))
+
+except:
+	g.info(_("MODE DEBUG:OFF"))
+
+#g.debug("Prefix: " + config.prefix)
+g.debug("Path: "   + abspath)
+g.debug("Config File: " + CONFIG_PATH)
+
+win = Gtk.Window()
+win.set_title(_("Gloobus-Preview Configuration"))
+#win.set_default_size(400,150)
+win.connect('delete-event', Gtk.main_quit)
+
+
+gui = GUI()
+
+Gtk.main()
+

@@ -1,0 +1,21 @@
+# List of source files which contain translatable strings.
+src/gloobus-preview-configuration
+src/gloobus-preview-interface-default.cpp
+src/gloobus-preview-interface-document.cpp  
+src/gloobus-preview-interface-free.cpp
+src/gloobus-preview-interface-image.cpp     
+src/gloobus-preview-interface-list.cpp
+src/gloobus-preview-interface-main.cpp      
+src/gloobus-preview-interface-music.cpp
+src/gloobus-preview-interface-text.cpp 
+src/gloobus-preview-interface-video.cpp
+src/gloobus-preview-main.cpp
+src/gloobus-preview-plugin-manager.cpp
+src/gloobus-preview-singleton.cpp          
+src/gloobus-preview-window.cpp
+src/plugin-compressed/plugin-compressed.cpp
+src/plugin-folder/plugin-folder.cpp
+src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp
+src/plugin-pixbuf/plugin-pixbuf.cpp
+src/plugin-ttf/plugin-ttf.cpp
+

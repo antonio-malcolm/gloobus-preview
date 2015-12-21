@@ -1,0 +1,42 @@
+gloobus-preview (0.4.5-ubuntu11~ppa263) natty; urgency=medium
+
+  * bump natty
+
+ -- ammonkey <am.monkeyd@gmail.com>  Sun, 08 May 2011 04:38:43 +0200
+
+gloobus-preview (0.4.5-ubuntu8~ppa262) natty; urgency=medium
+
+  * bump natty
+
+ -- ammonkey <am.monkeyd@gmail.com>  Sun, 20 Mar 2011 08:33:14 +0100
+
+gloobus-preview (0.4.5-ubuntu7~ppa245) maverick; urgency=medium
+
+  * key press events plugins - +/-/PGUP/PGDOWN for itext
+
+ -- ammonkey <am.monkeyd@gmail.com>  Wed, 25 Aug 2010 14:48:03 +0200
+
+gloobus-preview (0.4.5-ubuntu7~ppa238) maverick; urgency=medium
+
+  * loaders changed in ubuntu 10.10 now use the default /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+
+ -- ammonkey <am.monkeyd@gmail.com>  Sat, 21 Aug 2010 19:32:28 +0200
+
+gloobus-preview (0.4.5-ubuntu4~ppa236) maverick; urgency=low
+
+  * Bump version.
+
+ -- ammonkey <am.monkeyd@gmail.com>  Sun, 27 Jun 2010 18:46:11 +0200
+
+gloobus-preview (0.4.5-ubuntu4~ppa233) lucid; urgency=low
+
+  * Bump version.
+
+ -- ammonkey <am.monkeyd@gmail.com>  Fri, 11 Jun 2010 03:20:55 +0200
+
+gloobus-preview (0.4.5-ubuntu3~ppa213) lucid; urgency=medium
+
+  * Bump version.
+
+ -- ammonkey <am.monkeyd@gmail.com>  Sat, 24 Apr 2010 19:38:09 +0200
+

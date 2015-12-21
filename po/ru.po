@@ -1,0 +1,312 @@
+# Russian translation for gloobus
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gloobus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gloobus\n"
+"Report-Msgid-Bugs-To: guitarboy000@gmail.com\n"
+"POT-Creation-Date: 2015-01-05 18:15+0100\n"
+"PO-Revision-Date: 2015-01-05 14:00+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-05 14:16+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+
+#: src/gloobus-preview-configuration:147
+msgid "[1;33mSaving New Conf[1;m"
+msgstr "[1;33mСохранение новых настроек[1;m"
+
+#: src/gloobus-preview-configuration:120
+msgid "<b>Main settings</b>"
+msgstr "<b>Основные параметры</b>"
+
+#: src/gloobus-preview-window.cpp:488 src/gloobus-preview-window.cpp:576
+msgid "About"
+msgstr "О программе"
+
+#: src/gloobus-preview-interface-default.cpp:207
+msgid "Accessed:"
+msgstr "Доступ:"
+
+#: src/gloobus-preview-configuration:83
+msgid "Always on top"
+msgstr "Всегда поверх всех окон"
+
+#: src/gloobus-preview-singleton.cpp:501
+msgid "Application options"
+msgstr "Параметры приложения"
+
+#: src/gloobus-preview-window.cpp:485 src/gloobus-preview-window.cpp:572
+msgid "Blog"
+msgstr "Блог"
+
+#: src/gloobus-preview-configuration:108
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/gloobus-preview-configuration:184
+msgid "Creating configuration directory"
+msgstr "Создание каталога настроек"
+
+#: src/gloobus-preview-singleton.cpp:71
+msgid "Debug mode: On"
+msgstr "Режим отладки: включён"
+
+#: src/gloobus-preview-interface-main.cpp:87
+#: src/plugin-folder/plugin-folder.cpp:82
+msgid "Directory"
+msgstr "Каталог"
+
+#: src/gloobus-preview-window.cpp:486 src/gloobus-preview-window.cpp:574
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: src/gloobus-preview-interface-list.cpp:197
+#: src/plugin-compressed/plugin-compressed.cpp:98
+msgid "Error listing files"
+msgstr "Ошибка при выводе списка файлов"
+
+#: src/gloobus-preview-singleton.cpp:355
+msgid "Error loading file info"
+msgstr "Ошибка загрузки информации о файле"
+
+#: src/gloobus-preview-interface-image.cpp:37
+msgid "Error loading image"
+msgstr "Ошибка загрузки изображения"
+
+#: src/gloobus-preview-interface-text.cpp:27
+msgid "Error loading text"
+msgstr "Ошибка загрузки текста"
+
+#: src/gloobus-preview-interface-default.cpp:222
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: src/gloobus-preview-singleton.cpp:568
+msgid "File not found"
+msgstr "Файл не найден"
+
+#: src/plugin-compressed/plugin-compressed.cpp:134
+#: src/plugin-folder/plugin-folder.cpp:155
+msgid "Filename"
+msgstr "Имя файла"
+
+#: src/plugin-ttf/plugin-ttf.cpp:95
+msgid "Font installed sucesfully"
+msgstr "Шрифт успешно установлен"
+
+#: src/gloobus-preview-configuration:238
+msgid "Gloobus-Preview Configuration"
+msgstr "Настройки Gloobus-Preview"
+
+#: src/gloobus-preview-singleton.cpp:497
+msgid "Help options"
+msgstr "Параметры справки"
+
+#: src/plugin-folder/plugin-folder.cpp:154
+msgid "Icon"
+msgstr "Значок"
+
+#: src/gloobus-preview-singleton.cpp:494
+msgid "If URI is not provided Gloobus-Preview checks clipboard for filename"
+msgstr ""
+
+#: src/plugin-ttf/plugin-ttf.cpp:8
+msgid "Install Font"
+msgstr "Установить шрифт"
+
+#: src/gloobus-preview-configuration:96
+msgid ""
+"Layout of the buttons\n"
+"close button on the right/left?"
+msgstr ""
+"Расположение кнопок\n"
+"кнопка закрытия слева/справа?"
+
+#: src/gloobus-preview-interface-document.cpp:115
+#: src/gloobus-preview-interface-document.cpp:308
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: src/gloobus-preview-configuration:231
+msgid "MODE DEBUG:OFF"
+msgstr "РЕЖИМ ОТЛАДКИ: ВЫКЛЮЧЕН"
+
+#: src/gloobus-preview-configuration:228
+msgid "MODE DEBUG:ON"
+msgstr "РЕЖИМ ОТЛАДКИ: ВКЛЮЧЁН"
+
+#: src/gloobus-preview-interface-default.cpp:214
+msgid "Modified:"
+msgstr "Изменен:"
+
+#: src/gloobus-preview-interface-default.cpp:185
+msgid "Name:"
+msgstr "Имя:"
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "OPTION"
+msgstr "ПАРАМЕТР"
+
+#: src/gloobus-preview-interface-document.cpp:159
+msgid "Page: "
+msgstr "Страница: "
+
+#: src/gloobus-preview-window.cpp:489 src/gloobus-preview-window.cpp:578
+msgid "Quit"
+msgstr "Выйти"
+
+#: src/gloobus-preview-configuration:90
+msgid "Quit on lose focus"
+msgstr "Выйти при потере фокуса"
+
+#: src/gloobus-preview-window.cpp:487 src/gloobus-preview-window.cpp:570
+msgid "Report a Problem"
+msgstr "Сообщить о проблеме"
+
+#: src/gloobus-preview-configuration:107
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:14
+msgid "Search Lyrics for this Song"
+msgstr "Поиск текста этой песни"
+
+#: src/gloobus-preview-window.cpp:641
+msgid "See your files in a blink."
+msgstr "Мгновенный просмотр ваших файлов"
+
+#: src/plugin-pixbuf/plugin-pixbuf.cpp:5
+msgid "Set as Background"
+msgstr "Сделать фоновым рисунком"
+
+#: src/gloobus-preview-window.cpp:484 src/gloobus-preview-window.cpp:567
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/gloobus-preview-singleton.cpp:503
+msgid "Show debug messages"
+msgstr "Показывать отладочные сообщения"
+
+#: src/gloobus-preview-singleton.cpp:499
+msgid "Show help options"
+msgstr "Показать параметры справки"
+
+#: src/gloobus-preview-configuration:78
+msgid "Show in TaskBar"
+msgstr "Показывать на панели задач"
+
+#: src/gloobus-preview-singleton.cpp:505
+msgid "Show supported filetypes"
+msgstr "Показать поддерживаемые типы файлов"
+
+#: src/plugin-folder/plugin-folder.cpp:156
+msgid "Size"
+msgstr "Размер"
+
+#: src/gloobus-preview-interface-main.cpp:179
+msgid "Size: "
+msgstr "Размер: "
+
+#: src/gloobus-preview-singleton.cpp:397
+msgid "Start slideshow"
+msgstr "Начать слайдшоу"
+
+#: src/gloobus-preview-singleton.cpp:391
+msgid "Stop slideshow"
+msgstr "Остановить слайдшоу"
+
+#: src/plugin-ttf/plugin-ttf.cpp:153 src/plugin-ttf/plugin-ttf.cpp:155
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+"Широкая электрификация южных губерний даст мощный толчок подъёму сельского "
+"хозяйства"
+
+#: src/gloobus-preview-singleton.cpp:545
+msgid "There is no file in clipboard"
+msgstr "В буфере обмена нет файла"
+
+#: src/gloobus-preview-interface-main.cpp:178
+msgid "Type: "
+msgstr "Тип: "
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "Usage"
+msgstr "Использование"
+
+#: src/gloobus-preview-configuration:100
+msgid "Use gtk theme"
+msgstr "Использовать системную тему"
+
+#: src/gloobus-preview-configuration:198
+msgid "Using default Configuration"
+msgstr "Использовать настройки по умолчанию"
+
+#: src/gloobus-preview-configuration:84
+msgid ""
+"When enabled gloobus-preview will be\n"
+"<b>always on top</b> of the other windows"
+msgstr ""
+"Если включено, gloobus-preview будет\n"
+"<b>всегда поверх</b> остальных окон"
+
+#: src/gloobus-preview-configuration:79
+msgid ""
+"When enabled gloobus-preview will be\n"
+"shown in the <b>taskbar</b>"
+msgstr ""
+"Если включено, gloobus-preview будет\n"
+"показываться на <b>панели задач</b>"
+
+#: src/gloobus-preview-configuration:91
+msgid ""
+"When enabled, gloobus-preview will <b>exit</b>\n"
+"when it loses focus"
+msgstr ""
+"Если включено, gloobus-preview будет\n"
+"<b>исчезать</b> в случае потери фокуса"
+
+#: src/gloobus-preview-configuration:101
+msgid "When enabled, gloobus-preview will use system GTK theme"
+msgstr ""
+"Если включено, gloobus-preview будет использовать системную тему оформления"
+
+#: src/gloobus-preview-configuration:95
+msgid "Window Bar Layout inverted"
+msgstr "Отраженное расположение заголовка окна"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:255
+#, c-format
+msgid "iAudio error from %s : %s"
+msgstr "iAudio ошибка из %s : %s"
+
+#: src/gloobus-preview-window.cpp:644
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Alexandr Grigorcea https://launchpad.net/~cahr-gr\n"
+"  Evgeny Chernishov https://launchpad.net/~craghack\n"
+"  Gloobus Developers https://launchpad.net/~gloobus-dev\n"
+"  Ilya S. https://launchpad.net/~muromec53\n"
+"  Ilya Telegin https://launchpad.net/~devi29rus\n"
+"  Ivan Lozovoy https://launchpad.net/~petshoorin-deactivatedaccount-"
+"deactivatedaccount\n"
+"  Ivan Ysh https://launchpad.net/~gadjin\n"
+"  L!S https://launchpad.net/~andrew.lisichenko\n"
+"  Nkolay Parukhin https://launchpad.net/~parukhin\n"
+"  Sergey Sedov https://launchpad.net/~serg-sedov"
+
+#~ msgid "Report a Bug"
+#~ msgstr "Сообщить об ошибке"
+
+#~ msgid "Size:"
+#~ msgstr "Размер:"
+
+#~ msgid "Type:"
+#~ msgstr "Тип:"

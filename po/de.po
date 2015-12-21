@@ -1,0 +1,308 @@
+# German translation for gloobus
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gloobus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gloobus\n"
+"Report-Msgid-Bugs-To: guitarboy000@gmail.com\n"
+"POT-Creation-Date: 2015-01-05 18:15+0100\n"
+"PO-Revision-Date: 2015-01-05 14:00+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-05 14:16+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+
+#: src/gloobus-preview-configuration:147
+msgid "[1;33mSaving New Conf[1;m"
+msgstr "[1;33mNeue Einstellungen speichern[1;m"
+
+#: src/gloobus-preview-configuration:120
+msgid "<b>Main settings</b>"
+msgstr "<b>Allgemeine Einstellungen</b>"
+
+#: src/gloobus-preview-window.cpp:488 src/gloobus-preview-window.cpp:576
+msgid "About"
+msgstr "Über"
+
+#: src/gloobus-preview-interface-default.cpp:207
+msgid "Accessed:"
+msgstr "Zugegriffen:"
+
+#: src/gloobus-preview-configuration:83
+msgid "Always on top"
+msgstr "Immer im Vordergrund"
+
+#: src/gloobus-preview-singleton.cpp:501
+msgid "Application options"
+msgstr "Anwendungsoptionen"
+
+#: src/gloobus-preview-window.cpp:485 src/gloobus-preview-window.cpp:572
+msgid "Blog"
+msgstr "Blog"
+
+#: src/gloobus-preview-configuration:108
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/gloobus-preview-configuration:184
+msgid "Creating configuration directory"
+msgstr "Erstelle Konfigurationsordner"
+
+#: src/gloobus-preview-singleton.cpp:71
+msgid "Debug mode: On"
+msgstr "Debug Modus: An"
+
+#: src/gloobus-preview-interface-main.cpp:87
+#: src/plugin-folder/plugin-folder.cpp:82
+msgid "Directory"
+msgstr "Ordner"
+
+#: src/gloobus-preview-window.cpp:486 src/gloobus-preview-window.cpp:574
+msgid "Donate"
+msgstr "Spenden"
+
+#: src/gloobus-preview-interface-list.cpp:197
+#: src/plugin-compressed/plugin-compressed.cpp:98
+msgid "Error listing files"
+msgstr "Fehler beim Auflisten der Dateien"
+
+#: src/gloobus-preview-singleton.cpp:355
+msgid "Error loading file info"
+msgstr "Fehler beim Laden der Datei Info"
+
+#: src/gloobus-preview-interface-image.cpp:37
+msgid "Error loading image"
+msgstr "Fehler beim Laden des Bildes"
+
+#: src/gloobus-preview-interface-text.cpp:27
+msgid "Error loading text"
+msgstr "Fehler beim Laden des Textes"
+
+#: src/gloobus-preview-interface-default.cpp:222
+msgid "Error:"
+msgstr "Fehler:"
+
+#: src/gloobus-preview-singleton.cpp:568
+msgid "File not found"
+msgstr "Datei nicht gefunden"
+
+#: src/plugin-compressed/plugin-compressed.cpp:134
+#: src/plugin-folder/plugin-folder.cpp:155
+msgid "Filename"
+msgstr "Dateiname"
+
+#: src/plugin-ttf/plugin-ttf.cpp:95
+msgid "Font installed sucesfully"
+msgstr "Schriftart erfolgreich installiert"
+
+#: src/gloobus-preview-configuration:238
+msgid "Gloobus-Preview Configuration"
+msgstr "Einstellungen für Gloobus-Preview"
+
+#: src/gloobus-preview-singleton.cpp:497
+msgid "Help options"
+msgstr "Hilfeoptionen"
+
+#: src/plugin-folder/plugin-folder.cpp:154
+msgid "Icon"
+msgstr "Symbol"
+
+#: src/gloobus-preview-singleton.cpp:494
+msgid "If URI is not provided Gloobus-Preview checks clipboard for filename"
+msgstr ""
+"Wenn die URI nicht zur Verfügung steht überprüft Gloobus-Preview die "
+"Zwischenablage auf Dateinamen"
+
+#: src/plugin-ttf/plugin-ttf.cpp:8
+msgid "Install Font"
+msgstr "Installiere Schriftart"
+
+#: src/gloobus-preview-configuration:96
+msgid ""
+"Layout of the buttons\n"
+"close button on the right/left?"
+msgstr ""
+"Anordnung der Schaltflächen\n"
+"Schließen-Knopf rechts oder links?"
+
+#: src/gloobus-preview-interface-document.cpp:115
+#: src/gloobus-preview-interface-document.cpp:308
+msgid "Loading..."
+msgstr "Ladevorgang …"
+
+#: src/gloobus-preview-configuration:231
+msgid "MODE DEBUG:OFF"
+msgstr "DEBUG MODUS:AUS"
+
+#: src/gloobus-preview-configuration:228
+msgid "MODE DEBUG:ON"
+msgstr "DEBUG MODUS:AN"
+
+#: src/gloobus-preview-interface-default.cpp:214
+msgid "Modified:"
+msgstr "Geändert:"
+
+#: src/gloobus-preview-interface-default.cpp:185
+msgid "Name:"
+msgstr "Name:"
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "OPTION"
+msgstr "OPTION"
+
+#: src/gloobus-preview-interface-document.cpp:159
+msgid "Page: "
+msgstr "Seite: "
+
+#: src/gloobus-preview-window.cpp:489 src/gloobus-preview-window.cpp:578
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/gloobus-preview-configuration:90
+msgid "Quit on lose focus"
+msgstr "Bei Fokusverlust beenden"
+
+#: src/gloobus-preview-window.cpp:487 src/gloobus-preview-window.cpp:570
+msgid "Report a Problem"
+msgstr "Ein Problem melden"
+
+#: src/gloobus-preview-configuration:107
+msgid "Save"
+msgstr "Speichern"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:14
+msgid "Search Lyrics for this Song"
+msgstr "Liedtext für dieses Stück suchen"
+
+#: src/gloobus-preview-window.cpp:641
+msgid "See your files in a blink."
+msgstr "Betrachte deine Dateien in Sekundenschnelle."
+
+#: src/plugin-pixbuf/plugin-pixbuf.cpp:5
+msgid "Set as Background"
+msgstr "Im Hintergrund verwenden"
+
+#: src/gloobus-preview-window.cpp:484 src/gloobus-preview-window.cpp:567
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/gloobus-preview-singleton.cpp:503
+msgid "Show debug messages"
+msgstr "Meldungen zur Fehlerbehebung anzeigen"
+
+#: src/gloobus-preview-singleton.cpp:499
+msgid "Show help options"
+msgstr "Hilfeoptionen anzeigen"
+
+#: src/gloobus-preview-configuration:78
+msgid "Show in TaskBar"
+msgstr "In Systemleiste anzeigen"
+
+#: src/gloobus-preview-singleton.cpp:505
+msgid "Show supported filetypes"
+msgstr "Unterstützte Dateitypen anzeigen"
+
+#: src/plugin-folder/plugin-folder.cpp:156
+msgid "Size"
+msgstr "Größe"
+
+#: src/gloobus-preview-interface-main.cpp:179
+msgid "Size: "
+msgstr "Größe: "
+
+#: src/gloobus-preview-singleton.cpp:397
+msgid "Start slideshow"
+msgstr "Diaschau starten"
+
+#: src/gloobus-preview-singleton.cpp:391
+msgid "Stop slideshow"
+msgstr "Diaschau stoppen"
+
+#: src/plugin-ttf/plugin-ttf.cpp:153 src/plugin-ttf/plugin-ttf.cpp:155
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Der schnelle braune Fuchs springt über den gelangweilten Hund"
+
+#: src/gloobus-preview-singleton.cpp:545
+msgid "There is no file in clipboard"
+msgstr "Es ist keine Datei in der Zwischenablage verfügbar"
+
+#: src/gloobus-preview-interface-main.cpp:178
+msgid "Type: "
+msgstr "Typ: "
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "Usage"
+msgstr "Verwendung"
+
+#: src/gloobus-preview-configuration:100
+msgid "Use gtk theme"
+msgstr "Gtk-Thema verwenden"
+
+#: src/gloobus-preview-configuration:198
+msgid "Using default Configuration"
+msgstr "voreingestellte Konfiguration verwenden"
+
+#: src/gloobus-preview-configuration:84
+msgid ""
+"When enabled gloobus-preview will be\n"
+"<b>always on top</b> of the other windows"
+msgstr ""
+"Falls aktiv wird gloobus-preview\n"
+"<b>immer im Vordergrund</b> angezeigt."
+
+#: src/gloobus-preview-configuration:79
+msgid ""
+"When enabled gloobus-preview will be\n"
+"shown in the <b>taskbar</b>"
+msgstr ""
+"Falls aktiv wird gloobus-preview in der\n"
+"<b>Taskleiste</b> angezeigt."
+
+#: src/gloobus-preview-configuration:91
+msgid ""
+"When enabled, gloobus-preview will <b>exit</b>\n"
+"when it loses focus"
+msgstr ""
+"Falls aktiv wird gloobus-preview <b>beendet</b>,\n"
+"wenn es den Fokus verliert."
+
+#: src/gloobus-preview-configuration:101
+msgid "When enabled, gloobus-preview will use system GTK theme"
+msgstr ""
+"Wenn aktiviert, wird gloobus-preview das Gtk-Thema des Systems verwenden"
+
+#: src/gloobus-preview-configuration:95
+msgid "Window Bar Layout inverted"
+msgstr "Fensterleisten-Anordnung umkehren"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:255
+#, c-format
+msgid "iAudio error from %s : %s"
+msgstr "iAudio Fehler von %s : %s"
+
+#: src/gloobus-preview-window.cpp:644
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Eduard Gotwig https://launchpad.net/~gotwig\n"
+"  Jan https://launchpad.net/~jancborchardt-deactivatedaccount\n"
+"  Jarosław Ogrodnik https://launchpad.net/~goz\n"
+"  Trip McKay https://launchpad.net/~trip-mckay\n"
+"  atarixle https://launchpad.net/~atarixle\n"
+"  jaybe1966 https://launchpad.net/~jaybe1966\n"
+"  jumpfunky@web.de https://launchpad.net/~jumpfunky"
+
+#~ msgid "Report a Bug"
+#~ msgstr "Einen Fehler melden"
+
+#~ msgid "Size:"
+#~ msgstr "Größe:"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"

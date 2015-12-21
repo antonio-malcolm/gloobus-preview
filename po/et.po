@@ -1,0 +1,301 @@
+# Estonian translation for gloobus-preview
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gloobus-preview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gloobus-preview\n"
+"Report-Msgid-Bugs-To: guitarboy000@gmail.com\n"
+"POT-Creation-Date: 2015-01-05 18:15+0100\n"
+"PO-Revision-Date: 2015-01-05 14:00+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-05 14:16+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+
+#: src/gloobus-preview-configuration:147
+msgid "[1;33mSaving New Conf[1;m"
+msgstr "[1;33mSalvestan uued seaded[1;m"
+
+#: src/gloobus-preview-configuration:120
+msgid "<b>Main settings</b>"
+msgstr "<b>Üldised seaded</b>"
+
+#: src/gloobus-preview-window.cpp:488 src/gloobus-preview-window.cpp:576
+msgid "About"
+msgstr "Teave"
+
+#: src/gloobus-preview-interface-default.cpp:207
+msgid "Accessed:"
+msgstr "Kasutatud:"
+
+#: src/gloobus-preview-configuration:83
+msgid "Always on top"
+msgstr "Alati pealmine"
+
+#: src/gloobus-preview-singleton.cpp:501
+msgid "Application options"
+msgstr "Rakenduse seaded"
+
+#: src/gloobus-preview-window.cpp:485 src/gloobus-preview-window.cpp:572
+msgid "Blog"
+msgstr "Blogi"
+
+#: src/gloobus-preview-configuration:108
+msgid "Cancel"
+msgstr "Loobu"
+
+#: src/gloobus-preview-configuration:184
+msgid "Creating configuration directory"
+msgstr "Loon seadistuste kausta"
+
+#: src/gloobus-preview-singleton.cpp:71
+msgid "Debug mode: On"
+msgstr "Silumine: Sees"
+
+#: src/gloobus-preview-interface-main.cpp:87
+#: src/plugin-folder/plugin-folder.cpp:82
+msgid "Directory"
+msgstr "Kaust"
+
+#: src/gloobus-preview-window.cpp:486 src/gloobus-preview-window.cpp:574
+msgid "Donate"
+msgstr "Anneta"
+
+#: src/gloobus-preview-interface-list.cpp:197
+#: src/plugin-compressed/plugin-compressed.cpp:98
+msgid "Error listing files"
+msgstr "Viga failide nimekirja koostamisel"
+
+#: src/gloobus-preview-singleton.cpp:355
+msgid "Error loading file info"
+msgstr "Viga failiinfo laadimisel"
+
+#: src/gloobus-preview-interface-image.cpp:37
+msgid "Error loading image"
+msgstr "Viga pildi laadimisel"
+
+#: src/gloobus-preview-interface-text.cpp:27
+msgid "Error loading text"
+msgstr "Viga teksti laadimisel"
+
+#: src/gloobus-preview-interface-default.cpp:222
+msgid "Error:"
+msgstr "Veateade:"
+
+#: src/gloobus-preview-singleton.cpp:568
+msgid "File not found"
+msgstr "Faili ei leitud"
+
+#: src/plugin-compressed/plugin-compressed.cpp:134
+#: src/plugin-folder/plugin-folder.cpp:155
+msgid "Filename"
+msgstr "Failinimi"
+
+#: src/plugin-ttf/plugin-ttf.cpp:95
+msgid "Font installed sucesfully"
+msgstr "Font paigaldati edukalt"
+
+#: src/gloobus-preview-configuration:238
+msgid "Gloobus-Preview Configuration"
+msgstr "Gloobus-Preview seadistus"
+
+#: src/gloobus-preview-singleton.cpp:497
+msgid "Help options"
+msgstr "Abiteabe valikud"
+
+#: src/plugin-folder/plugin-folder.cpp:154
+msgid "Icon"
+msgstr "Ikoon"
+
+#: src/gloobus-preview-singleton.cpp:494
+msgid "If URI is not provided Gloobus-Preview checks clipboard for filename"
+msgstr ""
+"Kui URI ei ole pakutud, siis Gloobus-Preview kontrollib failinime "
+"lõikepuhvrist"
+
+#: src/plugin-ttf/plugin-ttf.cpp:8
+msgid "Install Font"
+msgstr "Installi font"
+
+#: src/gloobus-preview-configuration:96
+msgid ""
+"Layout of the buttons\n"
+"close button on the right/left?"
+msgstr ""
+"Nuppude paigutus\n"
+"Sulge\" nupp vasakul/paremal?"
+
+#: src/gloobus-preview-interface-document.cpp:115
+#: src/gloobus-preview-interface-document.cpp:308
+msgid "Loading..."
+msgstr "Laadimine..."
+
+#: src/gloobus-preview-configuration:231
+msgid "MODE DEBUG:OFF"
+msgstr "SILUMINE:VÄLJAS"
+
+#: src/gloobus-preview-configuration:228
+msgid "MODE DEBUG:ON"
+msgstr "SILUMINE:SEES"
+
+#: src/gloobus-preview-interface-default.cpp:214
+msgid "Modified:"
+msgstr "Muudetud:"
+
+#: src/gloobus-preview-interface-default.cpp:185
+msgid "Name:"
+msgstr "Nimi:"
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "OPTION"
+msgstr "VALIKUD"
+
+#: src/gloobus-preview-interface-document.cpp:159
+msgid "Page: "
+msgstr "Lehekülg: "
+
+#: src/gloobus-preview-window.cpp:489 src/gloobus-preview-window.cpp:578
+msgid "Quit"
+msgstr "Välju"
+
+#: src/gloobus-preview-configuration:90
+msgid "Quit on lose focus"
+msgstr "Välju fookuse kaotamisel"
+
+#: src/gloobus-preview-window.cpp:487 src/gloobus-preview-window.cpp:570
+msgid "Report a Problem"
+msgstr "Teata probleemist"
+
+#: src/gloobus-preview-configuration:107
+msgid "Save"
+msgstr "Salvesta"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:14
+msgid "Search Lyrics for this Song"
+msgstr "Otsi selle laulu sõnu"
+
+#: src/gloobus-preview-window.cpp:641
+msgid "See your files in a blink."
+msgstr "Vaata silmapilk oma faile"
+
+#: src/plugin-pixbuf/plugin-pixbuf.cpp:5
+msgid "Set as Background"
+msgstr "Sea taustapildiks"
+
+#: src/gloobus-preview-window.cpp:484 src/gloobus-preview-window.cpp:567
+msgid "Settings"
+msgstr "Seaded"
+
+#: src/gloobus-preview-singleton.cpp:503
+msgid "Show debug messages"
+msgstr "Silumisteadete näitamine"
+
+#: src/gloobus-preview-singleton.cpp:499
+msgid "Show help options"
+msgstr "Abiteabe valikute näitamine"
+
+#: src/gloobus-preview-configuration:78
+msgid "Show in TaskBar"
+msgstr "Näita tegumiribal"
+
+#: src/gloobus-preview-singleton.cpp:505
+msgid "Show supported filetypes"
+msgstr "Näita toetatud failitüüpe"
+
+#: src/plugin-folder/plugin-folder.cpp:156
+msgid "Size"
+msgstr "Suurus"
+
+#: src/gloobus-preview-interface-main.cpp:179
+msgid "Size: "
+msgstr "Suurus: "
+
+#: src/gloobus-preview-singleton.cpp:397
+msgid "Start slideshow"
+msgstr "Alusta slaidiesitlust"
+
+#: src/gloobus-preview-singleton.cpp:391
+msgid "Stop slideshow"
+msgstr "Peata slaidiesitlus"
+
+#: src/plugin-ttf/plugin-ttf.cpp:153 src/plugin-ttf/plugin-ttf.cpp:155
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Põdur Zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis"
+
+#: src/gloobus-preview-singleton.cpp:545
+msgid "There is no file in clipboard"
+msgstr "Lõikepuhvris pole ühtegi faili"
+
+#: src/gloobus-preview-interface-main.cpp:178
+msgid "Type: "
+msgstr "Tüüp: "
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "Usage"
+msgstr "Kasutus"
+
+#: src/gloobus-preview-configuration:100
+msgid "Use gtk theme"
+msgstr "Kasuta gtk teemat"
+
+#: src/gloobus-preview-configuration:198
+msgid "Using default Configuration"
+msgstr "Kasutatakse vaikesätteid"
+
+#: src/gloobus-preview-configuration:84
+msgid ""
+"When enabled gloobus-preview will be\n"
+"<b>always on top</b> of the other windows"
+msgstr ""
+"See valik sunnib gloobus-preview \n"
+"<b>alati peal</b> olema."
+
+#: src/gloobus-preview-configuration:79
+msgid ""
+"When enabled gloobus-preview will be\n"
+"shown in the <b>taskbar</b>"
+msgstr ""
+"See valik kuvab gloobus-preview\n"
+"<b>tegumiribal<b>"
+
+#: src/gloobus-preview-configuration:91
+msgid ""
+"When enabled, gloobus-preview will <b>exit</b>\n"
+"when it loses focus"
+msgstr ""
+"See valik <b>suleb <b> gloobus-preview\n"
+"fookuse kaotamisel"
+
+#: src/gloobus-preview-configuration:101
+msgid "When enabled, gloobus-preview will use system GTK theme"
+msgstr "See valik käsib gloobus-preview-l kasutada süsteemi GTK teemat"
+
+#: src/gloobus-preview-configuration:95
+msgid "Window Bar Layout inverted"
+msgstr "Akende riba paigutus pööratud."
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:255
+#, c-format
+msgid "iAudio error from %s : %s"
+msgstr "iAudio viga asukohas %s : %s"
+
+#: src/gloobus-preview-window.cpp:644
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  olavi tohver https://launchpad.net/~olts16"
+
+#~ msgid "Report a Bug"
+#~ msgstr "Teata veast"
+
+#~ msgid "Size:"
+#~ msgstr "Suurus:"
+
+#~ msgid "Type:"
+#~ msgstr "Tüüp:"

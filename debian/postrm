@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "remove" ]; then
+	rm -f /usr/lib/gtk-2.0/2.10.0/loader-files.d/gdk-pixbuf-psd.loaders
+	rm -f /usr/lib/gtk-2.0/2.10.0/loader-files.d/gdk-pixbuf-xcf.loaders
+	ldconfig
+fi
+# End automatically added section

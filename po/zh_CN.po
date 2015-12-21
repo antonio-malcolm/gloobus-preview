@@ -1,0 +1,303 @@
+# Chinese (Simplified) translation for gloobus
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gloobus package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gloobus\n"
+"Report-Msgid-Bugs-To: guitarboy000@gmail.com\n"
+"POT-Creation-Date: 2015-01-05 18:15+0100\n"
+"PO-Revision-Date: 2015-01-05 14:00+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-05 14:16+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+
+#: src/gloobus-preview-configuration:147
+msgid "[1;33mSaving New Conf[1;m"
+msgstr ""
+
+#: src/gloobus-preview-configuration:120
+msgid "<b>Main settings</b>"
+msgstr "<b>主要设置</b>"
+
+#: src/gloobus-preview-window.cpp:488 src/gloobus-preview-window.cpp:576
+msgid "About"
+msgstr "关于"
+
+#: src/gloobus-preview-interface-default.cpp:207
+msgid "Accessed:"
+msgstr ""
+
+#: src/gloobus-preview-configuration:83
+msgid "Always on top"
+msgstr "总在最前面"
+
+#: src/gloobus-preview-singleton.cpp:501
+msgid "Application options"
+msgstr "应用程序选项"
+
+#: src/gloobus-preview-window.cpp:485 src/gloobus-preview-window.cpp:572
+msgid "Blog"
+msgstr "博客"
+
+#: src/gloobus-preview-configuration:108
+msgid "Cancel"
+msgstr "取消"
+
+#: src/gloobus-preview-configuration:184
+msgid "Creating configuration directory"
+msgstr "创建配置目录"
+
+#: src/gloobus-preview-singleton.cpp:71
+msgid "Debug mode: On"
+msgstr "调试模式："
+
+#: src/gloobus-preview-interface-main.cpp:87
+#: src/plugin-folder/plugin-folder.cpp:82
+msgid "Directory"
+msgstr "目录"
+
+#: src/gloobus-preview-window.cpp:486 src/gloobus-preview-window.cpp:574
+msgid "Donate"
+msgstr "捐助"
+
+#: src/gloobus-preview-interface-list.cpp:197
+#: src/plugin-compressed/plugin-compressed.cpp:98
+msgid "Error listing files"
+msgstr "错误列表文件"
+
+#: src/gloobus-preview-singleton.cpp:355
+msgid "Error loading file info"
+msgstr "载入文件信息错误"
+
+#: src/gloobus-preview-interface-image.cpp:37
+msgid "Error loading image"
+msgstr "载入图像错误"
+
+#: src/gloobus-preview-interface-text.cpp:27
+msgid "Error loading text"
+msgstr "载入文本错误"
+
+#: src/gloobus-preview-interface-default.cpp:222
+msgid "Error:"
+msgstr "错误："
+
+#: src/gloobus-preview-singleton.cpp:568
+msgid "File not found"
+msgstr "未找到文件"
+
+#: src/plugin-compressed/plugin-compressed.cpp:134
+#: src/plugin-folder/plugin-folder.cpp:155
+msgid "Filename"
+msgstr "文件名"
+
+#: src/plugin-ttf/plugin-ttf.cpp:95
+msgid "Font installed sucesfully"
+msgstr ""
+
+#: src/gloobus-preview-configuration:238
+msgid "Gloobus-Preview Configuration"
+msgstr "Gloobus-Preview配置"
+
+#: src/gloobus-preview-singleton.cpp:497
+msgid "Help options"
+msgstr "帮助选项"
+
+#: src/plugin-folder/plugin-folder.cpp:154
+msgid "Icon"
+msgstr "图标"
+
+#: src/gloobus-preview-singleton.cpp:494
+msgid "If URI is not provided Gloobus-Preview checks clipboard for filename"
+msgstr "如果没有提供URI，Gloobus-Preview在剪贴板里检测文件名"
+
+#: src/plugin-ttf/plugin-ttf.cpp:8
+msgid "Install Font"
+msgstr "安装字体"
+
+#: src/gloobus-preview-configuration:96
+msgid ""
+"Layout of the buttons\n"
+"close button on the right/left?"
+msgstr ""
+"按钮布局\n"
+"关闭按钮放在右边/左边？"
+
+#: src/gloobus-preview-interface-document.cpp:115
+#: src/gloobus-preview-interface-document.cpp:308
+msgid "Loading..."
+msgstr "载入中..."
+
+#: src/gloobus-preview-configuration:231
+msgid "MODE DEBUG:OFF"
+msgstr "调试模式：关闭"
+
+#: src/gloobus-preview-configuration:228
+msgid "MODE DEBUG:ON"
+msgstr "调试模式：开启"
+
+#: src/gloobus-preview-interface-default.cpp:214
+msgid "Modified:"
+msgstr "修改于："
+
+#: src/gloobus-preview-interface-default.cpp:185
+msgid "Name:"
+msgstr "名称："
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "OPTION"
+msgstr "选项"
+
+#: src/gloobus-preview-interface-document.cpp:159
+msgid "Page: "
+msgstr "页面： "
+
+#: src/gloobus-preview-window.cpp:489 src/gloobus-preview-window.cpp:578
+msgid "Quit"
+msgstr "退出"
+
+#: src/gloobus-preview-configuration:90
+msgid "Quit on lose focus"
+msgstr "失去焦点后关闭"
+
+#: src/gloobus-preview-window.cpp:487 src/gloobus-preview-window.cpp:570
+msgid "Report a Problem"
+msgstr "报告问题"
+
+#: src/gloobus-preview-configuration:107
+msgid "Save"
+msgstr "保存"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:14
+msgid "Search Lyrics for this Song"
+msgstr "为这首歌搜索歌词"
+
+#: src/gloobus-preview-window.cpp:641
+msgid "See your files in a blink."
+msgstr "快速查看您的文件。"
+
+#: src/plugin-pixbuf/plugin-pixbuf.cpp:5
+msgid "Set as Background"
+msgstr "设置为背景"
+
+#: src/gloobus-preview-window.cpp:484 src/gloobus-preview-window.cpp:567
+msgid "Settings"
+msgstr "配置"
+
+#: src/gloobus-preview-singleton.cpp:503
+msgid "Show debug messages"
+msgstr "显示调试信息"
+
+#: src/gloobus-preview-singleton.cpp:499
+msgid "Show help options"
+msgstr "显示帮助选项"
+
+#: src/gloobus-preview-configuration:78
+msgid "Show in TaskBar"
+msgstr "在任务栏中显示"
+
+#: src/gloobus-preview-singleton.cpp:505
+msgid "Show supported filetypes"
+msgstr "显示支持的文件格式"
+
+#: src/plugin-folder/plugin-folder.cpp:156
+msgid "Size"
+msgstr "大小"
+
+#: src/gloobus-preview-interface-main.cpp:179
+msgid "Size: "
+msgstr "大小: "
+
+#: src/gloobus-preview-singleton.cpp:397
+msgid "Start slideshow"
+msgstr "开始幻灯片放映"
+
+#: src/gloobus-preview-singleton.cpp:391
+msgid "Stop slideshow"
+msgstr "停止放映幻灯片"
+
+#: src/plugin-ttf/plugin-ttf.cpp:153 src/plugin-ttf/plugin-ttf.cpp:155
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+
+#: src/gloobus-preview-singleton.cpp:545
+msgid "There is no file in clipboard"
+msgstr "剪切板里没有文件"
+
+#: src/gloobus-preview-interface-main.cpp:178
+msgid "Type: "
+msgstr "类型: "
+
+#: src/gloobus-preview-singleton.cpp:490
+msgid "Usage"
+msgstr "使用"
+
+#: src/gloobus-preview-configuration:100
+msgid "Use gtk theme"
+msgstr "使用gtk主题"
+
+#: src/gloobus-preview-configuration:198
+msgid "Using default Configuration"
+msgstr "使用默认的配置"
+
+#: src/gloobus-preview-configuration:84
+msgid ""
+"When enabled gloobus-preview will be\n"
+"<b>always on top</b> of the other windows"
+msgstr ""
+"当开启后，gloobus预览窗口将会\n"
+"<b>总在最前面<b>"
+
+#: src/gloobus-preview-configuration:79
+msgid ""
+"When enabled gloobus-preview will be\n"
+"shown in the <b>taskbar</b>"
+msgstr ""
+"当开启后，gloobus预览窗口将会\n"
+"在<b>任务栏</b>显示"
+
+#: src/gloobus-preview-configuration:91
+msgid ""
+"When enabled, gloobus-preview will <b>exit</b>\n"
+"when it loses focus"
+msgstr ""
+"启用后，gloobus-preview会<b>退出</b>\n"
+"当它失去焦点"
+
+#: src/gloobus-preview-configuration:101
+msgid "When enabled, gloobus-preview will use system GTK theme"
+msgstr "当启用后，gloobus预览窗口会使用系统GTK主题"
+
+#: src/gloobus-preview-configuration:95
+msgid "Window Bar Layout inverted"
+msgstr "窗口布局倒置"
+
+#: src/plugin-gstreamer-audio/plugin-gstreamer-audio.cpp:255
+#, c-format
+msgid "iAudio error from %s : %s"
+msgstr "%s : %s iAudio 错误"
+
+#: src/gloobus-preview-window.cpp:644
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Wang Dianjin https://launchpad.net/~tuhaihe\n"
+"  iwtctw https://launchpad.net/~avalonofsaber\n"
+"  lhquark https://launchpad.net/~lhquark\n"
+"  mayue617 https://launchpad.net/~mayue617\n"
+"  yuane https://launchpad.net/~yuane"
+
+#~ msgid "Report a Bug"
+#~ msgstr "报告一个Bug"
+
+#~ msgid "Size:"
+#~ msgstr "尺寸："
+
+#~ msgid "Type:"
+#~ msgstr "类型："

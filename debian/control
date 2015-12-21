@@ -1,0 +1,30 @@
+Source: gloobus-preview
+Section: utils
+Priority: optional
+Maintainer: ammonkey <am.monkeyd@gmail.com>
+Build-Depends: debhelper (>= 7),
+               cdbs,
+               dh-autoreconf,
+               autopoint,
+               pkg-config,
+               autotools-dev, 
+               libgtk2.0-dev,
+               libgstreamer0.10-dev,
+               libgstreamer-plugins-base0.10-dev,
+               libgtksourceview2.0-dev,
+               libdjvulibre-dev,
+               libspectre-dev,
+               libpoppler-glib-dev,
+               libtag1-dev,
+               libbz2-dev,
+               libdbus-glib-1-dev,
+               libgconf2-dev
+
+Homepage: http://gloobus.wordpress.com/
+Package: gloobus-preview
+Architecture: any
+Depends: libgstreamer-plugins-base0.10-0 (>=0.10.22) | gstreamer0.10-plugins-base (>=0.10.21), libcairomm-1.0-1 (>= 1.6.4), libgtksourceview2.0-0, libdjvulibre21, libspectre1, libpoppler13, libtag1c2a, libbz2-1.0, libdbus-glib-1-2 
+Description: a quicklook for linux
+ Gloobus is an extension of Gnome designed to enable a full screen preview of any kind of file. Ever been annoyed by those tiny miniatures of your files that are helpless. Outraged by the fact that there's no miniature for half of the file formats you're using. Excruciated by the painful loading time to see if you're dealing with the right file? Hail to Gloobus, for tis' is the Holy Grail of preview! Designed as an extendable, standards-compliant previewer , so that it plays nice with Gnome and can be easily extended to support any kind of file, Gloobus enables instant previewing of your files, without even having to open them. Hit space, and BANG, here's the content of your file, displayed as it would if it was opened.
+ .
+ Currently, Gloobus supports TXT , PDF, JPG, BMP, GIF, PNG, PSD, MP3, OGG, MPG, WMV, XCF It has a sleek black interface which will put your files in focus.

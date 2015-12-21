@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="32"
+   height="32"
+   id="svg2434">
+  <defs
+     id="defs2436" />
+  <g
+     id="layer1">
+    <path
+       d="M 17,3.5 L 4.5000002,15.028892 L 17,26.5 L 17,21 L 28,21 L 28,9 L 17,9 L 17,3.5 z"
+       id="path2432"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 17,4.5 L 4.5000002,16.028892 L 17,27.5 L 17,22 L 28,22 L 28,10 L 17,10 L 17,4.5 z"
+       id="path2624"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+</svg>

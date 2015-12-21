@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Gloobus Preview
+Type=Application
+Exec=gloobus-preview
+Terminal=false
+Icon=gloobus-preview
+Comment=See your files in a blink
+Categories=Utility;
+NoDisplay=true
+

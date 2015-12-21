@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 @datadir@/gloobus/gloobus-sushi.py
